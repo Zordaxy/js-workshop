@@ -1,0 +1,91 @@
+<!-- bad -->
+<table width="1200">
+  <!-- main heading row -->
+  <tr id="heading">
+    <td colspan="6">
+      <h1 align="center">Header</h1>
+    </td>
+  </tr>
+  <!-- nav menu row  -->
+  <tr id="nav" bgcolor="#ffffff">
+    <td width="200">
+      <a href="#" align="center">Home</a>
+    </td>
+    <td width="200">
+      <a href="#" align="center">Our team</a>
+    </td>
+    <td width="200">
+      <a href="#" align="center">Projects</a>
+    </td>
+    <td width="200">
+      <a href="#" align="center">Contact</a>
+    </td>
+    <td width="300">
+      <form width="300">
+        <input type="search" name="q" placeholder="Search query" width="300" />
+      </form>
+    </td>
+    <td width="100">
+      <button width="100">Go!</button>
+    </td>
+  </tr>
+  <!-- spacer row -->
+  <tr id="spacer" height="10">
+    <td></td>
+  </tr>
+  <!-- main content and aside row -->
+  <tr id="main">
+    <td id="content" colspan="4" bgcolor="#ffffff">
+      <!-- main content goes here -->
+    </td>
+    <td id="aside" colspan="2" bgcolor="#ff80ff" valign="top">
+      <h2>Related</h2>
+
+      <!-- aside content goes here -->
+    </td>
+  </tr>
+  <!-- spacer row -->
+  <tr id="spacer" height="10">
+    <td></td>
+  </tr>
+  <!-- footer row -->
+  <tr id="footer" bgcolor="#ffffff">
+    <td colspan="6">
+      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+    </td>
+  </tr>
+</table>
+
+<!-- good -->
+<header>
+  <h1>Header</h1>
+</header>
+
+<nav>
+  <ul>
+    <li>Home</li>
+    <li>Our team</li>
+    <li>Projects</li>
+    <li>Contact</li>
+    <li>
+      <form>
+        <input type="search" name="q" placeholder="Search query" />
+      </form>
+    </li>
+  </ul>
+</nav>
+
+<main>
+  <article>
+    <!-- main content goes here -->
+  </article>
+
+  <aside>
+    <h2>Related</h2>
+    <!-- aside content goes here -->
+  </aside>
+</main>
+
+<footer>
+  <p>©Copyright 2022 by nobody. All rights reversed.</p>
+</footer>

@@ -1,0 +1,59 @@
+.ical-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ical-body div {
+  flex-basis: 60%;
+}
+.ical-body label {
+  flex-basis: 40%;
+}
+
+.hidden {
+  display: none;
+}
+.calendar-list {
+  position: absolute;
+  background-color: lightgrey;
+  border-radius: 0.3rem;
+}
+
+.calendar-holder {
+  display: inline-block;
+  background-color: green;
+  width: 15px;
+  height: 15px;
+}
+
+input {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.calendar-list label {
+  padding: 5px;
+  display: block;
+  border-radius: 0.3rem;
+}
+
+.calendar-list label:hover {
+  background-color: grey;
+}
+
+.calendar-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+}
+
+.calendar-wrapper {
+  width: 20rem;
+  border: 1px solid gray;
+  padding: 0.5rem;
+}

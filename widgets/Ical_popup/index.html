@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="calendar-wrapper">
+    <header>
+      <h2>Interview scheduled for ...</h2>
+    </header>
+
+    <section class="ical-body">
+      <label>Location</label>
+      <div>Room 1</div>
+
+      <label>Invitees</label>
+      <div>
+        <ul>
+          <li>George</li>
+          <li>John</li>
+          <li>Paul</li>
+          <li>Ringo</li>
+        </ul>
+      </div>
+
+      <label for="calendar-holder">Calendar</label>
+      <div id="calendar-holder">
+        <span class="calendar-holder"></span>
+      </div>
+      <div class="hidden calendar-list">
+        <ul>
+          <li>
+            <input type="radio" name="chosenCalendar" value="Calendar" id="cal1" />
+            <label for="cal1">Calendar</label>
+          </li>
+          <li>
+            <input type="radio" name="chosenCalendar" value="Tasks" id="cal2" />
+            <label for="cal2">Tasks</label>
+          </li>
+        </ul>
+      </div>
+
+      <label>Alarm</label>
+      <div>message: 15 min before</div>
+
+      <label>Note</label>
+      <div>Dear Alex ...</div>
+    </section>
+
+    <footer class="calendar-footer">
+      <button>Maybe</button>
+      <button>Decline</button>
+      <button>Accept</button>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
