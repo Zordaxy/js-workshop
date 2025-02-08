@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+.active-suggestion {
+  background-color: lightblue;
+}
+
+li:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
