@@ -1,0 +1,11 @@
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 300px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
