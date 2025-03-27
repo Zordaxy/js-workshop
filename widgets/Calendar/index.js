@@ -43,7 +43,8 @@ console.log(calendar.getMonthData());
 addListener();
 
 function generateDays(monthData) {
-  let container = document.querySelector(".days");
+  // Reducing DOM reflows and repaints
+  let fragment = document.createDocumentFragment();
 
   monthData.forEach((week) => {
     let row = document.createElement("tr");
@@ -53,9 +54,11 @@ function generateDays(monthData) {
       cell.textContent = day || "_";
       row.appendChild(cell);
     });
-    container.appendChild(row);
+    fragment.appendChild(row);
   });
 
+  let container = document.querySelector(".days");
+  container.appendChild(fragment);
   return container;
 }
 
