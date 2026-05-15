@@ -5,55 +5,24 @@ A personal workshop for front-end exploration — coding exercises, UI widgets, 
 ## Contents
 
 ### 🧩 `widgets/`
-Vanilla JS implementations of common UI components.
-
-| Widget | Description |
-|---|---|
-| `accordion/` | Collapsible content panels |
-| `autocomplete/` | Type-ahead search (React) |
-| `calendar/` | Date picker / calendar |
-| `card/` | Card layout component |
-| `carousel/` | Image / content carousel |
-| `dropdown/` | Dropdown menu |
-| `fetch-and-render-json/` | Data fetching + rendering pattern |
-| `hash-group-by/` | Group-by utility using hash |
-| `ical-popup/` | iCal-style popup |
-| `next-neighbour/` | Nearest-neighbour interaction |
-| `range-slider/` | Range input slider |
-| `sortable-table/` | Sortable, paginated table |
-| `spreadsheet/` | Editable spreadsheet grid |
-| `star-rating/` | Star rating input |
-| `tabs/` | Tabbed navigation |
-| `tooltip/` | Tooltip on hover |
-| `virtual-list/` | Virtualized long list |
+Vanilla JavaScript (and one React) implementations of common UI components — accordions, carousels, tooltips, modals, tables, and similar building blocks. Each widget is self-contained, with its own HTML/CSS/JS, so it can be opened directly in a browser to see and tweak how it behaves. The goal is to understand the moving parts of every-day UI patterns by building them from scratch rather than reaching for a library.
 
 ### 💡 `js-coding/`
-JavaScript fundamentals, utilities, and classic data-structure / algorithm exercises.
-
-- **Top-level utilities** — `curry`, `debounce`, `throttle`, `deep-copy`, `flat`, `memoize`, `observable`, `promise-all`, `promisify`, `range`, `shuffle`, `fetch`
-- **`algorithms/`** — sorting, graph algorithms, traversal (bubble / merge / quick / heap / insertion / selection sort, Dijkstra, union-find, topological order, Eulerian path, convex hull, tree traversal, quick-select)
-- **`structures/`** — data structures (linked list, doubly-linked list, hash table, graph, tree, queue, stack, priority queue, LLRB tree, MinQ)
+JavaScript fundamentals and computer-science practice in one place. The top level holds small utility implementations (`curry`, `debounce`, `throttle`, `memoize`, `deep-copy`, etc.) — the kind of helpers commonly asked in interviews or rebuilt from first principles. Inside, two subfolders go deeper:
+- **`algorithms/`** — classic sorting, graph, and traversal algorithms
+- **`structures/`** — implementations of core data structures from linked lists to red-black trees
 
 ### 🧪 `leet-solutions/`
-LeetCode solutions organized by difficulty.
-
-| Folder | Contents |
-|---|---|
-| `easy/` | Easy-difficulty solutions |
-| `medium/` | Medium-difficulty solutions |
-| `hard/` | Hard-difficulty solutions |
-| `custom/` | Custom variations and extras |
+A growing archive of LeetCode solutions, organized by difficulty (`easy/`, `medium/`, `hard/`) with a `custom/` folder for variations and personal twists. Less about exhaustive coverage and more about keeping a record of how I approach problems and what patterns recur.
 
 ### ♿ `a11y/`
-Accessibility patterns and demos.
-- `semantic-layout/` — semantic HTML structure examples
+Accessibility patterns and demos — semantic HTML layouts, ARIA usage, focus management. A reference for how to make UI both usable and inclusive, not just functional.
 
 ### 📋 `templates/`
-Boilerplate scaffolds for quick experiments.
-- `full-template/` — a complete starter template
+Boilerplate scaffolds for quickly spinning up new experiments without the setup overhead.
 
 ## Conventions
 
 - Folder and file names use **kebab-case** (lowercase, hyphen-separated)
 - React components retain **PascalCase** filenames (e.g. `App.js`)
-- Each widget is self-contained — open the local `index.html` to view
+- Each widget is self-contained — open its local `index.html` to view
