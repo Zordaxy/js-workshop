@@ -1,2 +1,2 @@
-# FE_Coding_Problems
+# js-workshop
 Front-End coding problems
