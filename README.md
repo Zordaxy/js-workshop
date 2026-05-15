@@ -20,9 +20,3 @@ Accessibility patterns and demos — semantic HTML layouts, ARIA usage, focus ma
 
 ### 📋 `templates/`
 Boilerplate scaffolds for quickly spinning up new experiments without the setup overhead.
-
-## Conventions
-
-- Folder and file names use **kebab-case** (lowercase, hyphen-separated)
-- React components retain **PascalCase** filenames (e.g. `App.js`)
-- Each widget is self-contained — open its local `index.html` to view
